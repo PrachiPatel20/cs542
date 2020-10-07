@@ -1,0 +1,10 @@
+package genericCheckpointing.xmlStoreRestore;
+
+import genericCheckpointing.file.FileProcessor;
+import genericCheckpointing.util.SerializableObject;
+
+import java.util.ArrayList;
+
+public interface SerStrategy {
+   ArrayList<String> processInput(SerializableObject sObject);
+} 
